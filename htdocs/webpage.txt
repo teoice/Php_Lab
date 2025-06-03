@@ -1,0 +1,7 @@
+<html>
+<head>
+<title>Writing a file using PHP</title>
+</head>
+<body>
+<p>This web page was created writing a file with PHP</p></body>
+</html>

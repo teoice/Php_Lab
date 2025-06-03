@@ -1,0 +1,237 @@
+body{
+  margin: 0 auto;
+  padding-top: 80px;
+  background-color: #f4f4f4;
+}
+
+.header{
+    width: 100%;
+    margin: 0 auto;
+  background-color: #f4f4f4;
+    height: 80px;
+    align-items: center;
+    display: flex;
+    padding: 0 2.5%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 1000;
+}
+a {
+  all: unset;
+  display: contents; /* fa “sparire” il contenitore, ma attenti alla compatibilità */
+  cursor: pointer;
+}
+.menu{
+    list-style-type: none;
+    display: flex;
+    padding: 1em;
+}
+
+.menu li{
+    padding: 0 1em;
+    font-size: 11px;
+}
+.menu li:hover{
+    text-decoration: underline;
+}
+
+.option {
+  display: flex;
+  flex-direction: column;
+  width: 25px;
+  height: auto;
+}
+
+.option span {
+  display: block;
+  height: 2px;
+  background-color: #363636;
+  margin: 3px 0;
+  transition: width 0.5s ease, background-color 0.4s ease;
+}
+
+/* larghezze base */
+.option span:nth-child(1) {
+  width: 93%;
+}
+
+.option span:nth-child(2) {
+  width: 40%;
+}
+
+.option span:nth-child(3) {
+  width: 60%;
+}
+
+/* al passaggio del mouse */
+.option:hover span {
+  width: 100%;
+  background-color: #BC4050;
+}
+
+.row {
+  display: flex;
+  align-items: center;
+  justify-content: space-between; /* distribuisce spazio */
+  height: 80%;
+  width: 95%;
+  margin: 10px auto;
+}
+
+.row-left,
+.row-center,
+.row-right {
+  flex: 1;
+  display: flex;
+  align-items: center;
+}
+
+.row-center {
+  justify-content: center;
+}
+.logo{
+    width: 37%;
+}
+.row-right {
+    align-items: center;
+  justify-content: flex-end;
+  margin-right: 2.5em;
+}
+.row-right img{
+    display: block;
+    max-height: 100%;
+    height: auto;
+}
+
+#panel_kian {
+  height: 100%;
+  width: 35%;
+  border: 1px solid #292929;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  justify-self: right;
+  z-index: 999;
+}
+
+.hotel{
+  margin-top: 1em;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 2.7em;
+}
+.hotel img{
+  width: 60%;
+  height: auto;
+  transition: width 0.7s, height 0.7s ;
+}
+
+.hotel img:hover{
+  width: 80%;
+  height: auto;
+}
+
+.hotel1 {
+  display: flex;
+  align-items: center;
+  gap: 1em;
+  position: relative;
+  z-index: 1;
+}
+
+.hotel1 img{
+  margin: 1em;
+}
+
+#return {
+  width: 10%;
+  z-index: 2; 
+  transform: rotate(180deg);
+  transition: filter 0.3s ease-out;
+}
+#return:hover {
+  filter: brightness(0.6) grayscale(0.6);
+}
+
+.video-container {
+  position: relative;
+  width: 100%;
+  overflow: hidden;
+}
+
+.video-container video {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+.overlay-text {
+  position: absolute;
+  top: 35%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+  text-align: center;
+  text-shadow: 0 0 10px rgba(0,0,0,0.7);
+}
+
+.overlay-text h1{
+  font-family: "Cormorant", serif;
+  font-weight: 500;
+  font-size: 5.2rem;
+}
+.overlay-text p{
+  font-family: "Montserrat", serif;
+  font-weight: 700;
+  font-size: 1.35rem;
+}
+
+.content{
+  width: 75% !important;
+  justify-self: center;
+}
+
+.first{
+  width: 66%;
+  font-size: 2.5rem;
+  font-family: "Cormorant", serif;
+  line-height: 1.3 !important;
+  color: #4a5258;
+  font-weight: 400;
+  margin-bottom: 5em;
+}
+
+.first span{
+  color: #BC4050;
+  font-family: "Mr De Haviland", cursive;
+  font-size: 4.2rem;
+}
+
+.second{
+  display: flex;
+  justify-content: center;
+  margin-bottom: 8em;
+}
+.second img{
+  width: 50%;
+  margin-right: 7.5em;
+}
+.second p{
+  width: auto;
+  font-size: 1.8rem;
+  margin-right: 3.5em;
+}
+.banner{
+  width: 100%;
+  background-color: #ede9e9;
+}
+.banner p{
+  padding: 3.4em 0;
+}
+
+.more{
+  color: #BC4050;
+  font-weight: 700;
+}
