@@ -22,7 +22,7 @@ $test = mysqli_query($mysqli, $sql);
 if($test == TRUE){
     echo "New record created succesfully"."\n";
 } else {
-    echo " sei un coglione"."\n";
+    echo "Errore"."\n";
 }
 
 $mysqli->close();
