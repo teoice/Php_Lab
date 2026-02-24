@@ -1,6 +1,6 @@
 <html>
     <head>
-        <title>Hotel Baia del Mat</title>
+        <title>Hotel Baia del Mar</title>
         <link rel="stylesheet" href="style.css">
         <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
         <link href="https://fonts.googleapis.com/css2?family=Cormorant:wght@300;400;500;700&display=swap" rel="stylesheet">
@@ -27,10 +27,10 @@
                     <img src="img/logo_kian.svg" alt="logo kian" id="kian">
                 </div>
             </div></div>
-            <div id="panel_kian" style="display: none;">
+            <div id="panel_kian">
                 <div class="hotel">
                     <div class="hotel1">
-                        <img src="img/freccia.svg" alt="return" id="return">
+                        <img src="img/freccia.svg" alt="freccia return" id="return">
                         <img src="img/kjan.svg" alt="kjan"></div>
                     <img src="img/luxor_cairo.svg" alt="luxor_cairo">
                     <img src="img/baia_del_mar.svg" alt="baia_del_mar">

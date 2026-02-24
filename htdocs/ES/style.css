@@ -1,0 +1,38 @@
+body{
+    margin: 0 auto;
+    background-color: blueviolet;
+    align-items: center;
+}
+
+.form{
+    border: 3px solid snow;
+    border-radius: 3em;
+    padding: 4em;
+    width: 30%;
+    justify-self: center;
+}
+.form label, input{
+    color: snow;
+
+}
+.form  input{
+    width: 100%;
+    padding: 0.5em;
+    border-radius: 1em;
+    color: black;
+}
+.form  label{
+    justify-content: center;
+    display: flex;
+    margin-top: 1em;
+}
+
+.form button{
+    margin-top: 1em;
+    width: 40%;
+    justify-self: center;
+    display: flex;
+    justify-content: center;
+    border-radius: 1em;
+    color: purple;
+}

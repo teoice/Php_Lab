@@ -2,8 +2,11 @@ function window_kian(){
     panel.style.display = "block";
 }
 document.getElementById("return").addEventListener("click", function(){
-    panel.style.display = "none";
+    document.getElementById("panel_kian").style.display = "none";
 })
 
-document.getElementById("kian").addEventListener("click", window_kian);
-let panel = document.getElementById("panel_kian");
+document.getElementById("kian").addEventListener("click", function(){
+    
+    console.log("nf");
+    document.getElementById("panel_kian").style.display = "block";
+});

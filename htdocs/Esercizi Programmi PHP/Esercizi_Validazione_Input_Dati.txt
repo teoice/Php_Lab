@@ -1,0 +1,23 @@
+01. Controllare la correttezza di un campo dati contenente un cognome.
+
+02. Controllare la correttezza di un campo dati contenente un valore numerico in base decimale intero senza segno.
+
+03. Controllare la correttezza di un campo dati contenente un valore numerico reale in base decimale senza esponente con o senza segno.
+
+04. Controllare la correttezza di un campo dati contenente il nome di uno stato aderente all' euro.
+
+05. Controllare la correttezza di un campo dati contenente il nome di un comune della provincia di Venezia.
+
+06. Controllare la correttezza di due campi dati coordinati contenenti il C.A.P. e il nome inerenti lo stesso comune della provincia di Venezia.
+
+07. Controllare la correttezza di un campo dati contenente un numero di carta di credito VISA.
+
+08. Controllare la correttezza di un campo dati contenente un numero di carta di credito qualsiasi comprensiva di codice di sicurezza.
+
+09. Controllare la correttezza sintattica di un indirizzo email.
+
+10. Controllare la correttezza di una data di nascita.
+
+ 
+
+Dopo aver composto gli script richiesti trasformarli in funzioni con parametri da richiamare da main.

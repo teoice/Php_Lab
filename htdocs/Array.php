@@ -7,7 +7,6 @@
  echo "Array member value is $value <br />";
  }
  
- 
 /* Second method to create array. */
  $letternumbers[0] = 1;
  $letternumbers[1] = "two";
